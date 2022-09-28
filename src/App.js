@@ -1,9 +1,12 @@
 import './App.css';
+import Nav from './Component/Nav/Nav';
 
 function App() {
   return (
-    <div className="App">
-      <h2>Hello from tailwind</h2>
+    <div className="">
+      <Nav></Nav>
+      <button className="btn btn-active btn-secondary">Button</button>
+      <button className="btn btn-active btn-accent">Button</button>
     </div>
   );
 }

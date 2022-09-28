@@ -1,5 +1,5 @@
 import './App.css';
-import Gym from './Component/Nav/Gym/Gym';
+import Gym from './Component/Gym/Gym';
 import Nav from './Component/Nav/Nav';
 
 function App() {

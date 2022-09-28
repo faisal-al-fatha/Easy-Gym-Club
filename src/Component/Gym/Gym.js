@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Exercise from '../../Exercise/Exercise';
+import Cart from '../Cart/Cart';
+import Exercise from '../Exercise/Exercise';
 
 const Gym = () => {
     const [exercises, setExercises] = useState([]);
@@ -18,12 +19,12 @@ const Gym = () => {
                 <h3 className='text-2xl font-semibold mt-4 mb-6'>Select today's exercise</h3>
                 <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8 my-5'>
                     {
-                        exercises.map(exercise => <Exercise key={exercise.id} exercise={exercise} handleAddToList={() => handleAddToList(exercise)}></Exercise>)
+                        exercises.map(exercise => <Exercise key={exercise.id} exercise={exercise} handleAddToList={handleAddToList}></Exercise>)
                     }
                 </div>
 
             </div>
-            <div className="cart col-span-1">User Profile</div>
+            <div className="cart col-span-1"><Cart></Cart></div>
         </div>
     );
 };

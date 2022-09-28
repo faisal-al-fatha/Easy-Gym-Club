@@ -1,37 +1,44 @@
 [
     {
-        "id": "633466a2e896889608ec1b96",
-        "picture": "https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTF8fHdvcmtvdXR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "timeRequired": 5,
-        "name": "Pull Ups",
-        "benefits": "Aliquip culpa enim id esse consequat ad deserunt laborum cillum non irure ut. Sunt adipisicing labore deserunt dolor sit. Ullamco commodo est Lorem Lorem eiusmod qui. Deserunt anim duis esse aute ad ullamco qui cupidatat eu. Esse incididunt do esse excepteur veniam adipisicing do. Excepteur nisi id laborum qui aute proident in incididunt reprehenderit veniam.\r\n"
-    },
-    {
-        "id": "633466a2f7b560db39eca7f9",
-        "picture": "https://images.unsplash.com/photo-1604480133080-602261a680df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzl8fHdvcmtvdXR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "timeRequired": 15,
-        "name": "Cable Flyes",
-        "benefits": "Deserunt nostrud Lorem ad eu id. Dolor tempor in dolore velit. Cupidatat ut pariatur sit non et excepteur. Excepteur nulla ullamco aliquip aute sunt minim. Ut est aute cupidatat est veniam id laboris veniam eiusmod ex pariatur nisi est. Mollit nostrud qui Lorem nulla fugiat exercitation fugiat veniam Lorem.\r\n"
+        "id": "633466a20dc22cf01c84be69",
+        "picture": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvcmtvdXR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "timeRequired": 4,
+        "name": "Barbell Curl",
+        "benefits": "Barbell curls increase your upper-body strength. The barbell curl targets your biceps brachii muscle as well as the brachialis, a muscle responsible for elbow flexion. With regular practice, barbell curls can help you build bigger biceps. Barbell curls generally allow you to lift heavier weight than dumbbell curls.\r\n"
     },
     {
         "id": "633466a21116223fcbd81c7c",
         "picture": "https://images.unsplash.com/photo-1613080828608-7600e9186fcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA3fHx3b3Jrb3V0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "timeRequired": 10,
+        "timeRequired": 12,
         "name": "Dumble Press",
-        "benefits": "Id irure adipisicing ut cupidatat velit ipsum reprehenderit sint ex mollit reprehenderit qui non. Aliqua adipisicing exercitation tempor aute duis voluptate voluptate dolor. Labore sint qui ipsum eiusmod veniam. Incididunt ea in ipsum aliquip duis irure ipsum. Proident irure velit eiusmod occaecat laboris.\r\n"
+        "benefits": "Dumbbell bench presses build muscle in your upper body. With proper form, the dumbbell bench press activates muscle groups throughout your upper body, including your triceps, pectoral muscles (especially the pectoralis major), and anterior deltoids.\r\n"
+    },
+    {
+        "id": "633466a2f7b560db39eca7f9",
+        "picture": "https://images.unsplash.com/photo-1604480133080-602261a680df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzl8fHdvcmtvdXR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "timeRequired": 10,
+        "name": "Cable Flyes",
+        "benefits": "The biggest advantage of doing flyes with cables is it that it puts consistent tension on the chest muscles. Thus, you are stimulating the pecs throughout the range of motion. As a result, you get superior chest development and even greater pumps.\r\n"
     },
     {
         "id": "633466a231712663efb3ce7b",
         "picture": "https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTIyfHx3b3Jrb3V0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "timeRequired": 14,
-        "name": "Push Downs",
-        "benefits": "Eu officia aliqua occaecat eiusmod dolore exercitation laboris ea sunt consectetur laboris. Eu magna aute aute consectetur do nostrud consequat aliqua pariatur ex. Lorem aute Lorem deserunt qui occaecat do dolor. Elit non cillum anim nulla tempor consectetur dolor cillum magna et irure ad excepteur.\r\n"
+        "timeRequired": 6,
+        "name": "Cable Curl",
+        "benefits": "The cable curl primarily works the biceps brachii, which is the two-headed muscle on the front of your arm that merges into one muscle belly near the elbow.The exercise also engages the brachialis, which lies beneath the biceps muscle, plus the forearms and the deltoids in the shoulders. \r\n"
     },
     {
-        "id": "633466a20dc22cf01c84be69",
-        "picture": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvcmtvdXR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "timeRequired": 6,
-        "name": "Barbell Curl",
-        "benefits": "Aliqua aute incididunt reprehenderit est quis commodo. Aliqua culpa ex id culpa amet fugiat occaecat magna sint id aute. Labore do esse voluptate consectetur exercitation. Nulla reprehenderit occaecat mollit consequat voluptate. Laborum adipisicing elit excepteur aliquip id aliquip voluptate ut ex et est non proident. Qui laborum Lorem eu sit consectetur sunt officia cillum.\r\n"
+        "id": "633466a2e896889608ec1b96",
+        "picture": "https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTF8fHdvcmtvdXR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "timeRequired": 9,
+        "name": "Pull Ups",
+        "benefits": "The pullup is one of the most effective exercises for strengthening the back muscles.Pullups also strengthen the arm and shoulder muscles. By performing pullups regularly, you'll work the forearms and shoulders. If you’re looking to improve your strength in these areas, you should perform pullups regularly.\r\n"
+    },
+    {
+        "id": "6334a94f7a5d36c35e8b9abd",
+        "picture": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d29ya291dHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "timeRequired": 5,
+        "name": "Battle Rope",
+        "benefits": "Battle rope exercises are great for building muscular strength, increasing cardiorespiratory fitness, and enhancing athletic performance. They're low impact and can be performed sitting down, so they're a great alternative to other cardio exercises.\r\n"
     }
 ]

@@ -15,3 +15,12 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+// rm -rf .git
+// git init
+// git add . 
+// git commit -m "added"
+// git branch -M main
+// git remote add origin  <YOUR_GITHUB_REPO_LINK>
+// git push -u origin main -f

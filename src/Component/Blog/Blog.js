@@ -4,7 +4,7 @@ const Blog = () => {
     return (
         <div className='grid grid-cols-1 gap-4'>
             {/* Question 1 */}
-            <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box bg-white">
+            <div tabIndex={0} className="collapse collapse-arrow border border-base-300 rounded-box bg-white">
                 <div className="collapse-title text-xl font-medium">
                     How does react work?
                 </div>
@@ -15,7 +15,7 @@ const Blog = () => {
                 </div>
             </div>
             {/* Question 2 */}
-            <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box bg-white">
+            <div tabIndex={0} className="collapse collapse-arrow border border-base-300 rounded-box bg-white">
                 <div className="collapse-title text-xl font-medium">
                     Difference between props and state.
                 </div>
@@ -26,7 +26,7 @@ const Blog = () => {
                 </div>
             </div>
             {/* Question 3 */}
-            <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box bg-white mb-20">
+            <div tabIndex={0} className="collapse collapse-arrow border border-base-300 rounded-box bg-white mb-20">
                 <div className="collapse-title text-xl font-medium">
                     Use of useEffect rather than using data load from API.
                 </div>

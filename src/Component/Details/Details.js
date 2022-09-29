@@ -22,6 +22,10 @@ const Details = ({ cart, breaktime }) => {
                 <p className='text-lg font-semibold'>Break time: </p>
                 <p>{breaktime} seconds</p>
             </div>
+
+            <div className="card-actions justify-center mt-16 mb-4">
+                <button className="btn btn-accent w-full py-0">Activity Completed</button>
+            </div>
         </div>
     );
 };

@@ -17,6 +17,11 @@ const Details = ({ cart }) => {
                 <p className='text-lg font-semibold'>Exercise time: </p>
                 <p>{totalTime} minutes</p>
             </div>
+
+            <div className='w-full p-5 bg-base-100 rounded-md flex justify-between my-3'>
+                <p className='text-lg font-semibold'>Break time: </p>
+                {/* <p>{breakTime} minutes</p> */}
+            </div>
         </div>
     );
 };

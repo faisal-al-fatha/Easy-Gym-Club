@@ -11,7 +11,6 @@ const Gym = () => {
             .then(data => setExercises(data))
     }, [])
     const handleAddToList = (exercise) => {
-        console.log(exercise);
         setCart([...cart, exercise]);
     }
 

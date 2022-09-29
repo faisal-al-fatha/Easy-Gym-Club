@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Exercise = ({ handleAddToList, exercise }) => {
-    const { id, name, timeRequired, picture, benefits } = exercise;
+    const { name, timeRequired, picture, benefits } = exercise;
 
     return (
         <div className="card w-full shadow-xl bg-white mt-5">

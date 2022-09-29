@@ -3,7 +3,7 @@ import Break from '../Break/Break';
 import Details from '../Details/Details';
 import User from '../User/User';
 
-const Cart = () => {
+const Cart = ({ cart }) => {
     const timeArray = [10, 20, 30, 40, 50]
 
     return (
@@ -15,7 +15,7 @@ const Cart = () => {
                     timeArray.map(time => <Break time={time}></Break>)
                 }
             </div>
-            <Details></Details>
+            <Details cart={cart}></Details>
         </div>
     );
 };

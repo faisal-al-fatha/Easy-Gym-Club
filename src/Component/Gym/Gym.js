@@ -4,6 +4,7 @@ import Exercise from '../Exercise/Exercise';
 
 const Gym = () => {
     const [exercises, setExercises] = useState([]);
+    const [cart, setCart] = useState([]);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -11,6 +12,7 @@ const Gym = () => {
     }, [])
     const handleAddToList = (exercise) => {
         console.log(exercise);
+        setCart([...cart, exercise]);
     }
 
     return (
@@ -24,7 +26,7 @@ const Gym = () => {
                 </div>
 
             </div>
-            <div className="cart col-span-1"><Cart></Cart></div>
+            <div className="cart col-span-1"><Cart cart={cart}></Cart></div>
         </div>
     );
 };

@@ -5,12 +5,12 @@ import { faDumbbell } from '@fortawesome/free-solid-svg-icons'
 const Nav = () => {
     return (
 
-        <div className="navbar drop-shadow-xl bg-black py-0">
+        <div className="navbar drop-shadow-xl bg-black py-5">
             <div className="flex-1 text-teal-700 lg:ml-20 md:ml-8">
                 <div className='text-2xl font-semibold'>
                     <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl" href='./'>Easy Gym Club</a>
+                <a className="btn btn-ghost normal-case text-2xl font-semibold" href='./'>Easy Gym Club</a>
             </div>
             <div className="flex-none">
 

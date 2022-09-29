@@ -1,15 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Break from '../Break/Break';
 import Details from '../Details/Details';
 import User from '../User/User';
+import getStoredData from '../LocalStorage'
 
 const Cart = ({ cart }) => {
     const timeArray = [10, 20, 30, 40, 50]
     const handleBreakTime = (breakTime) => {
         console.log(breakTime);
-        // const breakt = localStorage.getItem('break-time');
         localStorage.setItem('break-time', JSON.stringify(breakTime))
     }
+    const [breakt, setBreakTime] = useState(0)
+    useEffect(() => {
+        let time = 0;
+        const stringTime = localStorage.getItem('break-time');
+        if (stringTime) {
+            time = JSON.parse(stringTime);
+        }
+        console.log(time);
+    }, [])
     return (
         <div className='px-5 bg-white mt-[-26px] py-5'>
             <User></User>

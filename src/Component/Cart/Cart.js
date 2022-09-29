@@ -7,7 +7,7 @@ const Cart = ({ cart }) => {
     const timeArray = [10, 20, 30, 40, 50]
 
     return (
-        <div className='px-5 bg-white mt-[-26px] pt-5'>
+        <div className='px-5 bg-white mt-[-26px] py-5'>
             <User></User>
             <h3 className='text-2xl font-semibold mt-6 mb-6'>Add a break</h3>
             <div className='flex justify-around py-3 bg-base-100 rounded-md px-1'>

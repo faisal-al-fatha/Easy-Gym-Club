@@ -2,22 +2,23 @@ import React, { useEffect, useState } from 'react';
 import Break from '../Break/Break';
 import Details from '../Details/Details';
 import User from '../User/User';
-import getStoredData from '../LocalStorage'
+
 
 const Cart = ({ cart }) => {
     const timeArray = [10, 20, 30, 40, 50]
+    const [breaktime, setBreakTime] = useState(0);
     const handleBreakTime = (breakTime) => {
-        console.log(breakTime);
+        setBreakTime(breakTime)
         localStorage.setItem('break-time', JSON.stringify(breakTime))
     }
-    const [breakt, setBreakTime] = useState(0)
     useEffect(() => {
         let time = 0;
         const stringTime = localStorage.getItem('break-time');
         if (stringTime) {
             time = JSON.parse(stringTime);
         }
-        console.log(time);
+        setBreakTime(time);
+        console.log(breaktime);
     }, [])
     return (
         <div className='px-5 bg-white mt-[-26px] py-5'>
@@ -28,7 +29,7 @@ const Cart = ({ cart }) => {
                     timeArray.map(breakTime => <Break key={breakTime} breakTime={breakTime} handleBreakTime={() => handleBreakTime(breakTime)}></Break>)
                 }
             </div>
-            <Details cart={cart} ></Details>
+            <Details cart={cart} breaktime={breaktime} ></Details>
         </div>
     );
 };

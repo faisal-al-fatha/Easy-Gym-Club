@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Details = ({ cart }) => {
+const Details = ({ cart, breaktime }) => {
     let totalTime = 0;
     cart.forEach(exercise => {
         totalTime = totalTime + exercise.timeRequired
@@ -20,7 +20,7 @@ const Details = ({ cart }) => {
 
             <div className='w-full p-5 bg-base-100 rounded-md flex justify-between my-3'>
                 <p className='text-lg font-semibold'>Break time: </p>
-                {/* <p>{breakTime} minutes</p> */}
+                <p>{breaktime} seconds</p>
             </div>
         </div>
     );

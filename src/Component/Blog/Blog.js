@@ -31,7 +31,7 @@ const Blog = () => {
                     Use of useEffect rather than using data load from API.
                 </div>
                 <div className="collapse-content">
-                    <p><span className='font-semibold'>Answer:</span></p>
+                    <p><span className='font-semibold'>Answer:</span> The motivation behind the introduction of useEffect Hook is to eliminate the side-effects of using class-based components. For example, tasks like updating the DOM, fetching data from API end-points, setting up subscriptions or timers, etc can be lead to unwarranted side-effects.</p>
                 </div>
             </div>
         </div>

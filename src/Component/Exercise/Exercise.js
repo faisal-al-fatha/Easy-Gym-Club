@@ -4,7 +4,7 @@ const Exercise = ({ handleAddToList, exercise }) => {
     const { id, name, timeRequired, picture, benefits } = exercise;
 
     return (
-        <div className="card w-full bg-base-100 shadow-xl bg-white mt-5">
+        <div className="card w-full shadow-xl bg-white mt-5">
             <figure><img src={picture} alt="exercise" className='w-full h-52' /></figure>
             <div className="card-body">
                 <h2 className="card-title text-xl font-bold">{name}</h2>

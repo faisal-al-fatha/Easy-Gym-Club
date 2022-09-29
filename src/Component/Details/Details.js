@@ -1,6 +1,13 @@
 import React from 'react';
+import Swal from 'sweetalert2'
 
 const Details = ({ cart, breaktime }) => {
+    const toast = () => {
+        Swal.fire(
+            'Good job!',
+            'success'
+        )
+    }
     let totalTime = 0;
     cart.forEach(exercise => {
         totalTime = totalTime + exercise.timeRequired
@@ -24,7 +31,7 @@ const Details = ({ cart, breaktime }) => {
             </div>
 
             <div className="card-actions justify-center mt-16 mb-4">
-                <button className="btn btn-accent w-full py-0">Activity Completed</button>
+                <button onClick={toast} className="btn btn-accent w-full py-0">Activity Completed</button>
             </div>
         </div>
     );
